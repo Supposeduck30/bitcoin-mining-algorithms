@@ -1,11 +1,12 @@
 # Two Mock Bitcoin Mining Algorithms
-## Two fully functional mock bitcoin mining algorithms built only using python with no external libraries. 
+## Two fully functional mock bitcoin mining algorithms built only using python with no external libraries which replicates actual bitcoin mining algorithms  
 This project is meant to imitate the bitcoin mining process by replicating essential components of the process and eventually finding and outputting a hash. This project:
 - Incorporates Double SHA-256 hashing (as used in actual Bitcoin mining)
 - Converts difficulty bits into a full target number
 - Builds a fake block header with version, previous hash, Merkle root, timestamp, bits, and nonce
 - Tries different nonces until the hash is below the target
 - Shows the mining process abd prints the valid hash
+
 #### The realistic algorithm:
 - Incorporates the actual Bitcoin difficulty bits (as of June 2025)
   - This means you will most likely never find a hash with the realistic algorithm, since the diffulty is very high
@@ -37,3 +38,22 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 ## How it works 
 #### 1. Sets up the block data 
 - The algorithm creates a fake block header with fixed parts like version, previous hash, Merkle root, and timestamp, essentially replicating the bitcoin mining network
+  Version - Block format version number, which tells the network what rules to use
+  Previous hash - The hash of the previous block in the chain
+  Merkle root - A single hash representing all the transactions in this block
+  Timestamp - The time the block was created, as a timestamp
+
+#### 2. Picks a difficulty 
+- It decides how hard it should be to find a valid hash (The actual bitcoin difficulty is in the realistic algorithim, while a very easy difficulty is in the simplified version)
+
+#### 3. Tries a random nonces 
+- It picks random numbers called nonces and adds them to the block header (random 32-bit number that is used a sort of random seed which helps find the hash)
+
+#### 4. Hash the header twice 
+- It runs the block headertwice through the hash function
+
+#### 5. Check the hash
+- It looks at the hash to see if it meets the difficulty
+
+#### 6. Repeat until success
+- It goes through millions of attempts 
