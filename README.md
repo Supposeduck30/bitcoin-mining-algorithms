@@ -16,5 +16,19 @@
 #### The simplified algorithm:
 - Incorporates a much lower difficulty than the actual bitcoin one
   - This means that it will eventually find a hash within 1-40s
+- It technically finds a valid hash which may even be valid 
+  - However, that hash will never be found by miners because the minng network has a requirement of a higher difficulty, but it could still technically be a valid hash
+ 
+## How to run 
 
+1. Make sure python is installed on your device
 
+2. Download the script
+   - If you have git installed, run: "git clone https://github.com/Supposeduck30/bitcoin-mining-algorithms.git"
+   - Or, click the green code button and press "downoad zip", and then extract it
+
+3. Inside of the directory, open the file "simplified-crypto-mining-algorithm.py" or "realistic-crypto-mining-algorithm.py" (whichever one you want to run)
+
+4. Run it by inputting into command prompt/terminal "python "file name")
+
+5. ALTERNATIVE - Paste the code into an online python compiler
