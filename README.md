@@ -18,7 +18,7 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 #### ⚡️ The simplified algorithm:
 - Incorporates a much lower difficulty than the actual bitcoin one
   - This means that it will eventually find a hash within 1-40s
-- It technically finds a valid hash which may even be valid 
+- It technically finds a valid hash which may even be a real hash
   - However, that hash will never be found by miners because the minng network has a requirement of a higher difficulty, but it could still technically be a valid hash
 
 ## 🕓 Version History
