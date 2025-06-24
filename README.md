@@ -5,7 +5,7 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 - Converts difficulty bits into a full target number
 - Builds a fake block header with version, previous hash, Merkle root, timestamp, bits, and nonce
 - Tries different nonces until the hash is below the target
-- Shows the mining process abd prints the valid hash
+- Shows the mining process and prints the valid hash
 
 #### 🔐 The realistic algorithm:
 - Incorporates the actual Bitcoin difficulty bits (as of June 2025)
