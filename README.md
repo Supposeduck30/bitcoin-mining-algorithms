@@ -57,3 +57,10 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 
 #### 6. Repeat until success
 - It goes through millions of attempts 
+
+## Known Issues
+- Does not use real bitcoin transactions
+- Nonces are randomly chosen instead of incremented
+- For the simplified one, the difficulty is too low to represent real mining difficulty
+- For the realistic one, the difficulty is normal which makes it near impossible for a normal computer to find a hash
+- Has fake block data
