@@ -1,5 +1,6 @@
 # Two Mock Bitcoin Mining Algorithms
-## Two fully functional mock bitcoin mining algorithms built only using python with no external libraries. This project is meant to imitate the bitcoin mining process by replicating essential components of the process and eventually finding and outputting a hash. This project:
+## Two fully functional mock bitcoin mining algorithms built only using python with no external libraries. 
+This project is meant to imitate the bitcoin mining process by replicating essential components of the process and eventually finding and outputting a hash. This project:
 - Incorporates Double SHA-256 hashing (as used in actual Bitcoin mining)
 - Converts difficulty bits into a full target number
 - Builds a fake block header with version, previous hash, Merkle root, timestamp, bits, and nonce
@@ -32,3 +33,7 @@
 4. Run it by inputting into command prompt/terminal "python "file name")
 
 5. ALTERNATIVE - Paste the code into an online python compiler
+
+## How it works 
+#### 1. Sets up the block data 
+- The algorithm creates a fake block header with fixed parts like version, previous hash, Merkle root, and timestamp, essentially replicating the bitcoin mining network
