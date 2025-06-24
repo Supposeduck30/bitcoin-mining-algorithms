@@ -23,7 +23,8 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 
 ## 🕓 Version History
 ### 1.0.0
-- Every 1000000 attempts it hasnt found a hash, it prints ("Still mining")
+- Terminal based
+- Every 1,000,000 attempts it hasnt found a hash, it prints ("Still mining")
 - Once found, it prints ("Found hash") and prints the hash with the nonce
 
 ## 🚀 How to run 
