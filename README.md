@@ -1,1 +1,1 @@
-# Two mock Bitcoin mining algorithms
+# Two Mock Bitcoin Mining Algorithms
