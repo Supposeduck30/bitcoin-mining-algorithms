@@ -7,7 +7,7 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 - Tries different nonces until the hash is below the target
 - Shows the mining process abd prints the valid hash
 
-#### The realistic algorithm:
+#### 🔐 The realistic algorithm:
 - Incorporates the actual Bitcoin difficulty bits (as of June 2025)
   - This means you will most likely never find a hash with the realistic algorithm, since the diffulty is very high
   - The average time to find a vald hash in this algorithm with a regular CPU is ~300 million years
@@ -15,13 +15,15 @@ This project is meant to imitate the bitcoin mining process by replicating essen
   - If by a miracle you find an actual hash within a short amount of time (the chances are astronomically high), thats actually a valid bitcoin hash
     - Sadly, it would have no value since it wasn't produced with a legitimate mining network, but it would match a valid hash that would be worth money if found by real mining algorithms
     
-#### The simplified algorithm:
+#### ⚡️ The simplified algorithm:
 - Incorporates a much lower difficulty than the actual bitcoin one
   - This means that it will eventually find a hash within 1-40s
 - It technically finds a valid hash which may even be valid 
   - However, that hash will never be found by miners because the minng network has a requirement of a higher difficulty, but it could still technically be a valid hash
- 
-## How to run 
+
+## Version History
+### 1.0.0
+## 🚀 How to run 
 
 1. Make sure python is installed on your device
 
@@ -35,7 +37,7 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 
 5. ALTERNATIVE - Paste the code into an online python compiler
 
-## How it works 
+## ⛏️ How it works 
 #### 1. Sets up the block data 
 - The algorithm creates a fake block header with fixed parts like version, previous hash, Merkle root, and timestamp, essentially replicating the bitcoin mining network
   Version - Block format version number, which tells the network what rules to use
@@ -58,7 +60,7 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 #### 6. Repeat until success
 - It goes through millions of attempts 
 
-## Known Issues
+## ⚠️ Known Issues
 - Does not use real bitcoin transactions
 - Nonces are randomly chosen instead of incremented
 - For the simplified one, the difficulty is too low to represent real mining difficulty
