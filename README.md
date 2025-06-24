@@ -21,7 +21,7 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 - It technically finds a valid hash which may even be valid 
   - However, that hash will never be found by miners because the minng network has a requirement of a higher difficulty, but it could still technically be a valid hash
 
-## Version History
+## 🕓Version History
 ### 1.0.0
 ## 🚀 How to run 
 
