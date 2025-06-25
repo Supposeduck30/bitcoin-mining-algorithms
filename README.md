@@ -37,7 +37,7 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 
 3. Inside of the directory, open the file "simplified-crypto-mining-algorithm.py" or "realistic-crypto-mining-algorithm.py" (whichever one you want to run)
 
-4. Run it by inputting into command prompt/terminal "python "file name")
+4. Run it by inputting into command prompt/terminal "python file name"
 
 5. ALTERNATIVE - Paste the code into an online python compiler
 
