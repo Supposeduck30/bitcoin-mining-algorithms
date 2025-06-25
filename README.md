@@ -41,6 +41,18 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 
 5. ALTERNATIVE - Paste the code into an online python compiler
 
+## 🔧 How to tweak this project for your own use 
+1. Fork the repository
+   
+2. Clone the fork
+   
+3. Make your changes to the code
+   
+4. Commit and push your changes to the fork
+   
+5. OPTIONAL - Create a pull request if you want the main repository to change the code with what you changed 
+
+
 ## ⛏️ How it works 
 #### 1. Sets up the block data 
 - The algorithm creates a fake block header with fixed parts like version, previous hash, Merkle root, and timestamp, essentially replicating the bitcoin mining network
