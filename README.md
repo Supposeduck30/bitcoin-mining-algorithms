@@ -9,7 +9,7 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 
 #### 🔐 The realistic algorithm:
 - Incorporates the actual Bitcoin difficulty bits (as of June 2025)
-  - This means you will most likely never find a hash with the realistic algorithm, since the diffulty is very high
+  - This means you will most likely never find a hash with the realistic algorithm, since the difficulty is very high
   - The average time to find a vald hash in this algorithm with a regular CPU is ~300 million years
     - That's why real mining algorithms employ networks with other bitcoin miners who share the result, and they have very powerful computers which use a lot of energy
   - If by a miracle you find an actual hash within a short amount of time (the chances are astronomically low to find one), thats actually a valid bitcoin hash
