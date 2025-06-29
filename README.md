@@ -80,7 +80,7 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 ### ![image](https://github.com/user-attachments/assets/db74480e-9c2f-4585-ba7e-755c3a73413a)
 
 
-## ⚠️ Known Issues
+## ⚠️ Warnings/Known Issues
 - Does not use real bitcoin transactions
 - Nonces are randomly chosen instead of incremented
 - For the simplified one, the difficulty is too low to represent real mining difficulty
