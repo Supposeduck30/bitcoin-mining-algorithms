@@ -56,7 +56,8 @@ This project is meant to imitate the bitcoin mining process by replicating essen
 ## ⛏️ How it works 
 #### 1. Sets up the block data 
 - The algorithm creates a fake block header with fixed parts like version, previous hash, Merkle root, and timestamp, essentially replicating the bitcoin mining network
-  Version - Block format version number, which tells the network what rules to use
+  
+Version - Block format version number, which tells the network what rules to use
   Previous hash - The hash of the previous block in the chain
   Merkle root - A single hash representing all the transactions in this block
   Timestamp - The time the block was created, as a timestamp
